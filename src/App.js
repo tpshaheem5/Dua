@@ -45,7 +45,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/duas" element={<Duas />} />
+            <Route path="/duas/:duasid" element={<Duas />} />
             
           </Routes>
         </BrowserRouter>

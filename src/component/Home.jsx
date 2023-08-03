@@ -113,7 +113,7 @@ function Home() {
         {prayers.map((item) => {
           return(
           <>
-          <h3 onClick={()=>nav(item.duas)} key={item.id}>{item.title}</h3>
+          <h3 onClick={()=>nav(`./Duas/${item.duas}`)} key={item.id}>{item.title}</h3>
           
           </>
           
