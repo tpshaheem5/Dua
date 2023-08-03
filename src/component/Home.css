@@ -7,9 +7,10 @@
     
     display:flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     width: 50%;
+    height: auto;
     row-gap: 20px;
     background-image: linear-gradient(rgb(108, 138, 236),rgb(156, 151, 155),rgb(233, 154, 102));
 }
@@ -17,9 +18,11 @@
     display:flex;
     align-items: center;
     width: 50%;
+    height: auto;
     
     flex-direction: column;
     row-gap: 20px;
     background-image: linear-gradient(rgb(108, 236, 121),rgb(217, 162, 201),rgb(102, 233, 102));
     background-color: blue;
+    overflow: scroll;
 }
