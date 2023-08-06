@@ -11,9 +11,9 @@ const Duas = () => {
 
   useEffect(() => {
     console.log("paramas id", duasid);
-
     duaHandle(duasid);
-  }, []);
+  });
+  
 
   // *********HANDLE DUAS**************
 
